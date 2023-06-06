@@ -82,6 +82,7 @@ public class AuthorizationGUI extends JFrame implements ActionListener {
         } else if (email.equals("3@gmail.com")) {
             ImageIcon image = new ImageIcon("image3.png");
             imageLabel.setIcon(image);
+            imageLabel.setSize(500,500);
         } else if (email.equals("4@gmail.com")) {
             ImageIcon image = new ImageIcon("image4.gif");
             imageLabel.setIcon(image);
